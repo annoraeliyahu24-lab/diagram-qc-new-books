@@ -13,8 +13,11 @@
         <mxCell id="2Ns0PnD9H-Z4p94N59FW-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcccc;strokeColor=#B5739D;" value="&lt;b&gt;Start&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="100" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="2Ns0PnD9H-Z4p94N59FW-4" parent="1" style="html=1;dashed=0;whiteSpace=wrap;strokeColor=#B5739D;fillColor=#CCE5FF;" value="Users Clicks &quot;Post Entry&quot;" vertex="1">
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-4" parent="1" style="html=1;dashed=0;whiteSpace=wrap;strokeColor=#B5739D;fillColor=#CCFFFF;" value="Users Clicks &quot;Post Entry&quot;" vertex="1">
           <mxGeometry height="50" width="100" x="290" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Are All The Fields Filled in?" vertex="1">
+          <mxGeometry height="100" width="170" x="460" y="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
