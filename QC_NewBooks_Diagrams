@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="b-ljSsB2ieBv06JN3rRs">
-    <mxGraphModel dx="762" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Part A - Flowchart" id="b-ljSsB2ieBv06JN3rRs">
+    <mxGraphModel dx="1270" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-1" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;QC NewBooks - Post Entry Logic&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="415" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcccc;strokeColor=#B5739D;" value="&lt;b&gt;Start&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="100" y="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
