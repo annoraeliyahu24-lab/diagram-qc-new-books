@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Part A - Flowchart" id="b-ljSsB2ieBv06JN3rRs">
-    <mxGraphModel dx="1270" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="544" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,8 +16,50 @@
         <mxCell id="2Ns0PnD9H-Z4p94N59FW-4" parent="1" style="html=1;dashed=0;whiteSpace=wrap;strokeColor=#B5739D;fillColor=#CCFFFF;" value="Users Clicks &quot;Post Entry&quot;" vertex="1">
           <mxGeometry height="50" width="100" x="290" y="135" as="geometry" />
         </mxCell>
-        <mxCell id="2Ns0PnD9H-Z4p94N59FW-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Are All The Fields Filled in?" vertex="1">
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-20" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2Ns0PnD9H-Z4p94N59FW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-27" connectable="0" parent="2Ns0PnD9H-Z4p94N59FW-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0857" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#ffffff, #212100);strokeColor=#36393d;" value="Are All The Fields Filled in?" vertex="1">
           <mxGeometry height="100" width="170" x="460" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-16" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2Ns0PnD9H-Z4p94N59FW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-21" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="2Ns0PnD9H-Z4p94N59FW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-18" parent="1" style="html=1;dashed=1;whiteSpace=wrap;fillColor=#CDA2BE;strokeColor=#36393d;" value="Error: Missing Fields" vertex="1">
+          <mxGeometry height="50" width="125" x="482.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-30" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2Ns0PnD9H-Z4p94N59FW-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-36" connectable="0" parent="2Ns0PnD9H-Z4p94N59FW-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.1983" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-23" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#36393d;" value="Is this Amount Greater Than Zero" vertex="1">
+          <mxGeometry height="100" width="150" x="700" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-24" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2Ns0PnD9H-Z4p94N59FW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-25" connectable="0" parent="2Ns0PnD9H-Z4p94N59FW-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0952" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-34" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="2Ns0PnD9H-Z4p94N59FW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-29" parent="1" style="html=1;dashed=1;whiteSpace=wrap;" value="Error: Invalid Amount" vertex="1">
+          <mxGeometry height="50" width="100" x="725" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
