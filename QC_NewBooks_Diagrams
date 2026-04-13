@@ -16,6 +16,14 @@
         <mxCell id="2Ns0PnD9H-Z4p94N59FW-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#ffffff, #212100);strokeColor=#36393d;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Are All The Fields Filled in?&lt;/font&gt;" vertex="1">
           <mxGeometry height="90" width="130" x="140" y="205" as="geometry" />
         </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-51" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="2Ns0PnD9H-Z4p94N59FW-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-52" connectable="0" parent="2Ns0PnD9H-Z4p94N59FW-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0476" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2Ns0PnD9H-Z4p94N59FW-37" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Do Total Debits Equal Total Credits?&lt;/font&gt;" vertex="1">
           <mxGeometry height="90" width="140" x="510" y="205" as="geometry" />
         </mxCell>
@@ -96,8 +104,48 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2Ns0PnD9H-Z4p94N59FW-50" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Save Entry to Database" vertex="1">
-          <mxGeometry height="50" width="100" x="710" y="225" as="geometry" />
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-55" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="2Ns0PnD9H-Z4p94N59FW-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-50" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" value="Save Entry to Database" vertex="1">
+          <mxGeometry height="45" width="100" x="700" y="226.25" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-53" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" value="Clear Form &amp;amp; Refresh Register" vertex="1">
+          <mxGeometry height="42.5" width="100" x="830" y="227.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-58" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="2Ns0PnD9H-Z4p94N59FW-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="250" />
+              <mxPoint x="1080" y="200" />
+              <mxPoint x="80" y="200" />
+            </Array>
+            <mxPoint x="79.28571428571429" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-61" connectable="0" parent="2Ns0PnD9H-Z4p94N59FW-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.9171" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-62" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-63" connectable="0" parent="2Ns0PnD9H-Z4p94N59FW-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1895" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-56" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Post Another Entry?" vertex="1">
+          <mxGeometry height="80" width="100" x="960" y="208.75" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-57" edge="1" parent="1" source="2Ns0PnD9H-Z4p94N59FW-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2Ns0PnD9H-Z4p94N59FW-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ns0PnD9H-Z4p94N59FW-64" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcccc;strokeColor=#B5739D;" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="75" x="972.5" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
